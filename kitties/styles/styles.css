@@ -1,0 +1,9 @@
+.breadcrumb {
+    padding: 10 px 16px;
+    list-style-type: none;
+    background-color: rgba(128, 128, 128, 0.229);
+}
+
+.footerlinks {
+    list-style-type: none;
+}
