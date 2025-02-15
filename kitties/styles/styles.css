@@ -9,6 +9,12 @@
     font-style: italic;
 }
 
+
+nav ul li a {
+    text-decoration: none; /* Removes underline */
+    color: black;
+}
+
 /* Style the nav list */
 nav ul {
     display: flex;
@@ -24,7 +30,7 @@ header {
     background-color: #2C9AB7;
     color: #f0f0f0;
 }
-
+/* Style the font */
 body {
     font-family: sans-serif;
 }
