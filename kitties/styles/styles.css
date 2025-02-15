@@ -1,7 +1,10 @@
+
+
+/* Style the nav list */
 .breadcrumb {
     padding: 10 px 16px;
     list-style-type: none;
-    background-color: rgba(128, 128, 128, 0.229);
+    background-color: #f0f0f0;
 }
 
 .footerlinks {
@@ -9,9 +12,9 @@
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: #3a3a3a;
 }
 
 header {
-    background-color: aquamarine;
+    background-color: #2C9AB7;
 }
