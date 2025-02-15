@@ -1,27 +1,36 @@
 
-
-/* Style the nav list */
-.breadcrumb {
-    padding: 10 px 16px;
-    list-style-type: none;
-    background-color: #f0f0f0;
-}
-
 .footerlinks {
     list-style-type: none;
 }
 
+.tagline {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Style the nav list */
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+/* Style the nav */
+nav {
+  height: 3rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
 header {
     background-color: #2C9AB7;
     color: #f0f0f0;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 footer {
     background-color: #3a3a3a;
     color: #f0f0f0;
-
 }
