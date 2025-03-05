@@ -1,20 +1,58 @@
 
-.footerlinks {
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
-}
-
 .tagline {
+  font-size: 1.5rem;  
   font-style: italic;
 }
 
-footer ul li a {
-    text-decoration: none; /* Removes underline */
-    color: white;
-    font-size: 1.0rem;
-  }
+.blue {
+  color: #239AB9;
+}
 
+.about {
+  position:relative;
+  left: 100px;
+  padding-top: 40px;
+  padding-left: 300px;
+  padding-bottom: 40px;
+}
+
+
+.container {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.footerlinks {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+ /* Style for home page main contents */
+.column1 {
+  float: left;
+  width: 620px;
+  margin: 10px;
+
+}
+.column2 {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+
+
+footer ul li a {
+  text-decoration: none; /* Removes underline */
+  color: white;
+  font-size: 1.0rem;
+}
+
+
+/* Style the list font */
 nav ul li a {
   text-decoration: none; /* Removes underline */
   color: black;
@@ -22,32 +60,61 @@ nav ul li a {
   font-weight: 700;
 }
 
-/* Style the nav list */
 nav ul {
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
+  display: flex;
+  gap: 10px; 
+  list-style: none; /* Removes bullet points */
+
 }
 
-/* Style the nav */
+a {
+  color: #2C9AB7;
+}
+
+blockquote {
+  font-size: 1.25rem;
+  color: #2C9AB7;
+}
+
 nav {
-  background-color: #f0f0f0;
-}
-header {
-    background-color: #2C9AB7;
-    color: #f0f0f0;
+  height: 3rem;
+  width: 100%;
+  background-color: rgb(192, 192, 192);
+  padding: 5px 5px 5px 800px;
 }
 
-/* Style the font */
+header {
+    display: inline;
+    height: 8rem;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 800px;
+    padding-bottom: 50px;
+    background-color: #2C9AB7;
+    color: white;
+}
+
+
+
 body {
-    font-family: sans-serif;
+  height: 100%;
+  margin 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  font-family: sans-serif;
+  
 }
 
 footer {
-        background-color: #3a3a3a;
-    color: #f0f0f0;
-}
+  background-color: #3a3a3a;
+  padding-left: 200px;
+  padding-top: 20px;
+  color: #f0f0f0;
+} 
 
-h2 {
-    color: #239AB9;
+h1 {
+  font-size: 3rem;
+  margin: 0;
 }
