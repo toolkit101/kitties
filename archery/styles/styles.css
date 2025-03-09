@@ -1,0 +1,160 @@
+* { 
+  box-sizing: border-box;
+}
+
+.customer-reviews {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+.box {
+    height: 500px;
+    width: 500px;
+    border: 5px solid #1b447f;
+    background: #ecb722;
+  }
+  
+  .container {
+    height: 500px;
+    background-color: white;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+
+.small-text {
+    font-size: smaller;
+    
+}
+
+address a {
+    color: white; 
+    text-decoration: none; /* Removes underline */
+}
+
+address a:hover {
+    color: #ecb722; 
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+img {
+        max-width: 100%;
+        height: auto;
+}
+
+ul li {
+    margin-bottom: 10px; /* Adds space between each bullet */
+}
+
+nav a {
+    color: black;
+    background-color: #ecb722;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+  }
+
+nav a:hover {
+   background-color: white; /* Change background color on hover */
+   text-decoration: underline; /* Adds underline back on hover */
+}
+
+nav a:focus {
+    outline: 2px solid black;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center; /* Centers horizontally */
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the screen */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Make the main content area flexible */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex: 1; /* Takes remaining space */
+}
+
+/* Sidebar takes less space, content takes more */
+section {
+    flex: 3;
+    gap: 20px;
+    padding: 20px;
+    background: whitesmoke;
+}
+
+aside {
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    background: #ecb722;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: #03a3df;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #03a3df;
+    color: #444;
+}
+
+footer {
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    background: #444444;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px; 
+}
+
+
+h2 {
+ font-weight: bold;
+ font-size: 24px; 
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 17px; 
+}
+
+
