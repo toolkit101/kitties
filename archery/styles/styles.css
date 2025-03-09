@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.video-container {
+    width: 560px; 
+    height: 315px; 
+}
+
+.video-container iframe {
+    width: 100%; 
+    height: 100%;
+}
+
 .customer-reviews {
     font-size: 20px;
     font-style: italic;
