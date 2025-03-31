@@ -52,6 +52,7 @@
   text-align: center;
 }
 
+
 .footerlinks li:not(:last-child)::after {
   content: " / ";
 }
@@ -158,8 +159,32 @@ footer {
   text-align: center;
 }
 
-
 h1 {
   font-size: 3rem;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .column2 {
+    display: none;
+  }
+
+  .column1 {
+    width: 100%;
+  }
+}
+
+@media print {
+  /* Hide navigation, sidebar (column2), and footer */
+  nav,
+  .column2,
+  footer {
+    display: none;
+  }
+
+  /* Make main content full width */
+  .column1 {
+    width: 100%;
+    float: none;
+  }
 }
